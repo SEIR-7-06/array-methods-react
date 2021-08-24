@@ -68,6 +68,8 @@ class App extends React.Component {
   //   // Place code here
   // }
 
+  // Hungry for More:
+
   // 8.
   // - Given the array of planet data 'find' the planet with the name
   // of 'Jupiter'.
@@ -77,6 +79,22 @@ class App extends React.Component {
   //   // Place code here
   // }
 
+  // 9.
+  // - Given the array of planet data create an array of all the planets with more than 2 moons.
+  // - Combine the moons of those planets into a new moons array.
+  // - Loop through the moons array to display a list of all of the moons.
+  // renderPlanets() {
+
+  // }
+
+
+  // 10.
+  // - Given the array of planet data create an array of all the planets with a ring system.
+  // - Loop through the array to calculate the total sum of the diameter of these planets.
+  // - Display this sum to the page.
+  // renderPlanets() {
+
+  // }
 
   render() {
     return (
