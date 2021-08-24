@@ -6,9 +6,9 @@ class App extends React.Component {
   // 1. Given the array of planet data render a list of each of the
   // planet names.
   renderPlanets() {
-    return planetData.map((planet) => {
+    return planetData.map((planet, idx) => {
       return (
-        <p>{planet.name}</p>
+        <p key={idx}>{planet.name}</p>
       );
     });
   };
