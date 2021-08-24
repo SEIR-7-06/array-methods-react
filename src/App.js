@@ -59,8 +59,6 @@ class App extends React.Component {
   //   // Place code here
   // }
 
-  // Hungry for More:
-
   // 7.
   // - Given the array of planet data filter for an array of all
   // the planets with a ring system.
