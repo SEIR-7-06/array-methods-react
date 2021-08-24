@@ -9,9 +9,11 @@ Do your best to work through each challenge. If you've been stuck on any particu
 
   ```js
   renderPlanets() {
-    return planetData.map((planet) => {
+    const planetNames = planetData.map((planet) => {
       return <p>{planet.name}</p>;
     });
+
+    return planetNames;
   };
   ```
 </details>
@@ -27,7 +29,7 @@ Do your best to work through each challenge. If you've been stuck on any particu
 
   ```js
   renderPlanets() {
-    return planetData.map((planet) => {
+    const planetJSX = planetData.map((planet) => {
       return (
         <div>
           <h4>{planet.name}</h4>
@@ -35,6 +37,8 @@ Do your best to work through each challenge. If you've been stuck on any particu
         </div>
       )
     });
+
+    return planetJSX;
   }
   ```
 </details>
@@ -50,14 +54,16 @@ Do your best to work through each challenge. If you've been stuck on any particu
 
   ```js
   renderPlanets() {
-    return planetData.map((planet) => {
+    const planetJSX = planetData.map((planet) => {
       return (
         <div>
           <h4>{planet.name}</h4>
           <p>Length of Day: {planet.lengthOfDay}</p>
         </div>
       );
-    })
+    });
+
+    return planetJSX;
   }
   ```
 </details>
@@ -80,7 +86,7 @@ Do your best to work through each challenge. If you've been stuck on any particu
 
   ```js
   renderPlanets() {
-    return planetData.map((planet, idx) => {
+    const planetJSX = planetData.map((planet, idx) => {
       return (
         <div>
           <h4>{idx + 1}. {planet.name}</h4>
@@ -88,6 +94,8 @@ Do your best to work through each challenge. If you've been stuck on any particu
         </div>
       );
     })
+
+    return planetJSX;
   }
   ```
 </details>
@@ -160,7 +168,7 @@ Do your best to work through each challenge. If you've been stuck on any particu
       return planet.ringSystem === true;
     });
 
-    return planetsWRings.map((planet) => {
+    const planetJSX = planetsWRings.map((planet) => {
       return (
         <div>
           <h4>{planet.name}</h4>
@@ -169,6 +177,8 @@ Do your best to work through each challenge. If you've been stuck on any particu
         </div>
       )
     });
+
+    return planetJSX;
   }
   ```
 </details>
@@ -187,9 +197,11 @@ Do your best to work through each challenge. If you've been stuck on any particu
   renderPlanets() {
     const jupiter = planetData.find((planet) => planet.name === 'Jupiter');
 
-    return jupiter.moons.map((moon) => {
+    const moonJSX = jupiter.moons.map((moon) => {
       return <li>{moon}</li>;
     });
+
+    return moonJSX;
   }
   ```
 </details>
