@@ -91,6 +91,7 @@ class App extends React.Component {
   // 10.
   // - Given the array of planet data create an array of all the planets with a ring system.
   // - Loop through the array to calculate the total sum of the diameter of these planets.
+  // Protip: take a look at the JavaScript reduce method.
   // - Display this sum to the page.
   // renderPlanets() {
 
