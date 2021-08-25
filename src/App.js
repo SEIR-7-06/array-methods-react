@@ -14,26 +14,20 @@ class App extends React.Component {
   };
 
 
-  // 2. Given the array of planet data, map through the array to
-  // render a list displaying each of the plenet's name and their
-  // diameter.
+  // 2. Show the name and diameter of each planet.
   // renderPlanets() {
   //   // Place code here
   // }
 
 
-  // 3. Given the array of planet data, map through the array to
-  // render a list display just the name and length of day of
-  // each planet.
+  // 3. Show the name and length of day for each planet.
   // renderPlanets() {
   //   // Place code here
   // }
 
 
-  // 4. Given the array of planet data, map through the array to
-  // render a list display the name and length of day of each
-  // planet. Prepend each planet name with it's index in the array.
-  // For example..
+  // 4. Show the name and length of day for each planet. Prepend each planet name with its position in the list in the array starting with the number 1.
+  // For example...
   // <div>
   //   <h4>1. Mercury</h4>
   //   <p>Length Of Day: 4222.6 hours</p>
@@ -44,26 +38,19 @@ class App extends React.Component {
   // }
 
 
-  // 5. Given the array of planet data 'find' the planet with the name
-  // of 'Earth' and render it's name, diameter, and length of day. Use
-  // one of the array iterator methods to find the planet.
+  // 5. Show the name, diameter and length of day of planet Earth.
   // renderPlanets() {
   //   // Place code here
   // }
 
 
-  // 6. Given the array of planet data 'find' the planet with the length
-  // of day of 10.7 render it's name, diameter, and length of day. Use
-  // one of the array iterator methods to find the planet.
+  // 6. Show the name, diameter, and length of day for the planet that has a length of day of 10.7.
   // renderPlanets() {
   //   // Place code here
   // }
 
   // 7.
-  // - Given the array of planet data filter for an array of all
-  // the planets with a ring system.
-  // - Map through the filtered array to render the list of planets
-  // displaying their name, diameter, and length of day.
+  // Show the name, diameter, and length of day for all planets with a ring system.
   // renderPlanets() {
   //   // Place code here
   // }
@@ -71,30 +58,22 @@ class App extends React.Component {
   // Hungry for More:
 
   // 8.
-  // - Given the array of planet data 'find' the planet with the name
-  // of 'Jupiter'.
-  // - Map through the moons array of the found planet, to display a
-  // list of all of the moons.
+  // Show a list of Jupiter's moons.
   // renderPlanets() {
   //   // Place code here
   // }
 
   // 9.
-  // - Given the array of planet data create an array of all the planets with more than 2 moons.
-  // - Combine the moons of those planets into a new moons array.
-  // - Loop through the moons array to display a list of all of the moons.
+  // Find all of the planet's with more than 2 moons. Show a combined list of all of the moons for those planets.
   // renderPlanets() {
-
+  //   // Place code here
   // }
 
 
   // 10.
-  // - Given the array of planet data create an array of all the planets with a ring system.
-  // - Loop through the array to calculate the total sum of the diameter of these planets.
-  // Protip: take a look at the JavaScript reduce method.
-  // - Display this sum to the page.
+  // Calculate the total sum of the diameters of all planets that have a ring system. Display that sum on the page.
   // renderPlanets() {
-
+  //   // Place code here
   // }
 
   render() {
